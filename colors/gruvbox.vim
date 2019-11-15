@@ -866,18 +866,20 @@ hi! link netrwVersion GruvboxGreen
 " }}}
 " NERDTree: {{{
 
-hi! link NERDTreeDir GruvboxAqua
-hi! link NERDTreeDirSlash GruvboxAqua
+hi! link NERDTreeDir GruvboxFg1
+hi! link NERDTreeDirSlash GruvboxFg1
 
-hi! link NERDTreeOpenable GruvboxOrange
-hi! link NERDTreeClosable GruvboxOrange
+hi! link NERDTreeOpenable GruvboxFg1
+hi! link NERDTreeClosable GruvboxFg1
 
-hi! link NERDTreeFile GruvboxFg1
+hi! link NERDTreeFlags NERDTreeDir
+
+hi! link NERDTreeFile GruvboxFg3
 hi! link NERDTreeExecFile GruvboxYellow
 
 hi! link NERDTreeUp GruvboxGray
 hi! link NERDTreeCWD GruvboxGreen
-hi! link NERDTreeHelp GruvboxFg1
+hi! link NERDTreeHelp GruvboxFg3
 
 hi! link NERDTreeToggleOn GruvboxGreen
 hi! link NERDTreeToggleOff GruvboxRed
